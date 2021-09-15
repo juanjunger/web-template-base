@@ -1,0 +1,201 @@
+/* Header */
+header {
+  padding: 30px 6%;
+  background-color: var(--color-white);
+  border-bottom: 1px solid rgb(230, 235, 241);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Header desktop */
+header .desktop__logo img {
+  max-width: 30%;
+}
+
+header .desktop__menu ul {
+  list-style-type: none;
+}
+
+header .desktop__menu ul li {
+  display: inline;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+}
+
+header .desktop__menu ul li a {
+  text-decoration: none;
+  color: var(--color-dark);
+  font-weight: 400;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  transition: 0.5s;
+  padding: 15px;
+}
+
+header .desktop__menu ul li a:hover {
+color: var(--color-dark);
+}
+
+/* Header mobile */
+header .mobile {
+  display: none;
+}
+
+header .mobile__logo {
+  display: none;
+}
+
+header .mobile__logo img {
+  display: none;
+}
+
+header .mobile__button {
+  display: none;
+}
+
+header .mobile__menu {
+  display: none;
+}
+
+
+/* Home */
+section.welcome {
+  padding: 360px 6% 210px;
+  background: url(../img/bg--welcome.jpeg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+section.welcome .welcome__text {
+  text-align: center;
+}
+
+section.welcome .welcome__text h1 {
+  margin: 30px 0 90px;
+  max-width: 600px;
+  color: var(--color-white);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  letter-spacing: 2px;
+  line-height: 50px;
+  min-height: 50px;
+
+  animation-name: fadeIn;
+  animation-duration: 5s;
+}
+
+section.welcome .welcome__text p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 42px;
+  color: var(--color-white);
+
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+section.welcome .welcome__text button.btn {
+  background: transparent;
+  margin: 0px 10px 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--color-white);
+  width: 180px;
+  padding: 15px 0;
+  border: 2px solid var(--color-white);
+  border-radius: 8px;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+section.welcome .welcome__text button.btn:hover {
+  transform: scale(1.1);
+  box-shadow:0 5px 10px rgba(0,0,0,.2);
+  background-color: var(--color-dark);
+  border-color: var(--color-dark);
+}
+
+/* Enterprise */
+section.enterprise {
+  padding: 120px 6%;
+}
+
+section.enterprise .enterprise__content {
+  flex-wrap: wrap;
+}
+
+section.enterprise img.enterprise__img {
+  max-width: 520px;
+  flex: 1;
+}
+
+section.enterprise .enterprise__copy {
+  padding: 0 64px;
+  flex: 1;
+}
+
+section.enterprise .enterprise__copy h6 {
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 0;
+}
+
+section.enterprise .enterprise__copy h4 {
+  font-size: 21px;
+  margin-top: 16px;
+}
+
+section.enterprise .enterprise__copy h4 {
+  margin-bottom: 48px;
+}
+
+/* Footer */
+footer {
+  padding: 64px 6%;
+  background-color: var(--color-dark);
+}
+
+footer .footer__socials {
+  margin-bottom: 30px;
+}
+
+footer .footer__socials ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+footer .footer__socials ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+footer .footer__socials ul li svg {
+  color: var(--color-white);
+}
+
+footer .footer__socials ul li a {
+  text-decoration: none;
+}
+
+footer .footer__copy p {
+  color: var(--color-white);
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 16px;
+}

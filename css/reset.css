@@ -1,0 +1,51 @@
+:root {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-light: #fafafa;
+  --color-border-light: #dadada;
+  --color-dark: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  background-color: var(--color-light);
+  font-family: "Montserrat";
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex--content--end {
+  justify-content: flex-end;
+}
+
+.flex--content--center {
+  justify-content: center;
+}
+
+.flex--content--evenly {
+  justify-content: space-evenly;
+}
+
+.flex--direction--column {
+  flex-direction: column;
+}

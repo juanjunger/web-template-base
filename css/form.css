@@ -1,0 +1,30 @@
+input, textarea, select {
+  font-family: 'Montserrat';
+  padding: 12px;
+  box-sizing: border-box;
+  border: 0;
+  border-bottom: 1px solid var(--color-border-light);
+  margin: 16px;
+  background-color: var(--color-white);
+}
+
+input[type="text"] {
+  width: 100%;
+}
+
+input[type="submit"] {
+  font-family: 'Montserrat';
+  cursor: pointer;
+  width: 50%;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  border-radius: 5px;
+}
+
+textarea {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 150px;
+}

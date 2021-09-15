@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- Meta Tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+  <meta name="author" content="Juan Junger" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="copyright" content="" />
+  <meta name="publisher" content="" />
+
+  <!-- Facebook -->
+  <meta property="og:image" content="" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="" />
+  <meta property="og:locale" content="pt-br" />
+  <meta property="fb:admins" content="" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="" />
+  <meta name="twitter:title" content="" />
+  <meta name="twitter:description" content="" />
+  <meta name="twitter:image" content="" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animations.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="" />
+
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="css/fontawesome.min.css" />
+  <script defer src="js/fontawesome.min.js"></script>
+
+  <!-- Jquery -->
+  <script defer src="js/jquery.js"></script>
+  <script defer src="js/menu.js"></script>
+  <script defer src="js/contact.js"></script>
+  <script defer src="js/autotype.js"></script>
+
+  <title>Web Template Base</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="content">
+
+        <div class="desktop">
+          <div class="flex">
+            <div class="desktop__logo">
+              <a href="index.html">
+                <img src="img/logo.png" alt="Logo">
+              </a>
+            </div>
+            <div class="desktop__menu">
+              <ul>
+                <li><a href="#welcome">Home</a></li>
+                <li><a href="#enterprise">Enterprise</a></li>
+              </ul>
+            </div>
+          </div>
+        </div><!--desktop-->
+
+        <div class="mobile">
+          <div class="flex">
+            <div class="mobile__logo">
+              <a href="index.html">
+                <img src="img/logo.png" alt="Logo">
+              </a>
+            </div>
+            <div class="mobile__button"></div>
+          </div>
+          <div class="mobile__menu">
+            <ul>
+              <li><a href="#welcome">Home</a></li>
+              <li><a href="#enterprise">Enterprise</a></li>
+            </ul>
+          </div>
+        </div><!--mobile-->
+
+      </div>
+    </div>
+  </header><!--header-->
+
+  <main>
+    <section class="welcome" id="welcome">
+      <div class="container">
+        <div class="content flex flex--content--center">
+          <div class="welcome__text">
+            <p>Lorem Ipsum Dolor.</p>
+            <h1>
+              <a class="typewrite" data-period="2000" data-type='[ "Lorem", "Lorem", "Lorem" ]'>
+                <span class="wrap"></span>
+              </a>
+            </h1>
+            <button class="btn" onclick="handleContact()">See more</button>
+          </div><!--welcome-text-->
+        </div>
+      </div>
+    </section><!--welcome-->
+
+    <section class="enterprise" id="enterprise">
+      <div class="container">
+        <div class="content">
+          <div class="enterprise__content flex">
+            <img class="enterprise__img" src="img/bg--enterprise.png" alt="" >
+            <div class="enterprise__copy">
+              <h6>Lorem Ipsum Dolor</h6>
+              <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
+                veniam amet autem alias fugiat, labore laborum ex soluta dolores
+                quidem vel dolorem facilis enim tempora doloremque exercitationem
+                omnis reprehenderit velit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!--.enterprise-->
+  </main><!--main-->
+
+  <footer>
+    <div class="container">
+      <div class="content">
+        <div class="footer__socials">
+          <ul>
+            <li><a href="" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="" target="_blank"><i class="fa fa-envelope"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer__copy">
+          <p>© 2021 Web Template Base.</p>
+        </div>
+      </div>
+    </div>
+  </footer><!--footer-->
+</body>
+</html>
